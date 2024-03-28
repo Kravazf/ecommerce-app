@@ -13,7 +13,7 @@ const FormWrap = ({ children } : { children: React.ReactNode }) => {
     >
       <div
         className="
-          max-w-[700px]
+          max-w-[650px]
           w-full
           flex
           flex-col
@@ -26,7 +26,7 @@ const FormWrap = ({ children } : { children: React.ReactNode }) => {
           md:p-8
         "
       >
-        { children }
+          {children}
       </div>
     </div>
    );
