@@ -17,7 +17,7 @@ export default function Home() {
             md:grid-cols-3
             lg:grid-cols-4
             xl:grid-cols-5
-            2x1;grid-cols-6
+            2xl;grid-cols-6
             gap-8
           "
         >

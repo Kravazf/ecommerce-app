@@ -1,6 +1,6 @@
 'use client';
 
-import { FormatePrice } from "@/utils/formatPrice";
+import { formatePrice } from "@/utils/formatPrice";
 import { truncateText } from "@/utils/truncateText";
 import { Rating } from "@mui/material";
 import Image from "next/image";
@@ -55,6 +55,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
         >
           <Image
             fill
+            priority={true}
             src={data.images[0].image}
             alt={data.name}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
@@ -78,7 +79,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
           {data.reviews.length} reviews
         </div>
         <div className="font-semibold">
-          {FormatePrice(data.price)}
+          {formatePrice(data.price)}
         </div>
       </div>
     </div>

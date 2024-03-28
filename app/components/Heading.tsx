@@ -1,10 +1,9 @@
-
 interface HeadingProps {
   title: string;
   center?: boolean;
 }
 
-const Heading: React.FC< HeadingProps> = ({
+const Heading: React.FC<HeadingProps> = ({
   title,
   center,
 }) => {

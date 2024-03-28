@@ -81,6 +81,7 @@ const ProductImage: React.FC<ProductImageProps> = ({
       >
         <Image
           fill
+          priority={true}
           sizes="(max-width: 600px) 100vw, 50vw"
           src={cartProduct.selectedImg.image}
           alt={cartProduct.name}

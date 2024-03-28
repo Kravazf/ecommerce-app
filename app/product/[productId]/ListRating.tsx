@@ -1,7 +1,7 @@
 'use client';
 
 import Avatar from "@/app/components/Avatar";
-import Heading from "@/app/components/products/Heading";
+import Heading from "@/app/components/Heading";
 import { Rating } from "@mui/material";
 import moment from "moment";
 
@@ -28,7 +28,7 @@ const ListRating: React.FC<ListRatingProps> = ({
             <div
               key={review.id}
               className="
-                max-w-300px
+                max-w-[350px]
               "
             >
               <div

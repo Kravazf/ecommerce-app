@@ -52,8 +52,8 @@ const HomeBanner = () => {
           </p>
           <p
             className="
-              text-2x1
-              md:text-5x1
+              text-2xl
+              md:text-5xl
               text-yellow-400
               font-bold
             "
